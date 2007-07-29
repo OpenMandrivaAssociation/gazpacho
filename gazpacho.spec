@@ -1,7 +1,7 @@
 %define pkgname Gazpacho
 Summary: Gazpacho is a clone of the glade designer written in python and gtk
 Name: gazpacho
-Version: 0.7.1
+Version: 0.7.2
 Release: %mkrel 1
 Source: http://ftp.gnome.org/pub/GNOME/sources/gazpacho/%{name}-%{version}.tar.bz2
 License: LGPL
