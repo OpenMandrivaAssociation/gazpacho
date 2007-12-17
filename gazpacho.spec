@@ -6,7 +6,6 @@ Release: %mkrel 1
 Source: http://ftp.gnome.org/pub/GNOME/sources/gazpacho/%{name}-%{version}.tar.bz2
 License: LGPL
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: pygtk2.0-devel
 BuildRequires: python-kiwi
 BuildRequires: desktop-file-utils
