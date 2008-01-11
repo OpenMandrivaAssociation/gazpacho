@@ -36,17 +36,6 @@ export LC_ALL=C
 python%{pyver} setup.py install --root=%{buildroot}
 %find_lang %name
 # menu
-mkdir -p %{buildroot}/%{_menudir}
-cat > %{buildroot}/%{_menudir}/%{name} <<EOF
-?package(%{name}): \
-command="%{_bindir}/%{name}" \
-title="Gazpacho" \
-longtitle="Clone of the glade designer written in python and gtk" \
-needs="x11" \
-icon="%{_datadir}/gazpacho/pixmaps/gazpacho-icon.png" \
-section="More Applications/Development/Development Environments" \
-startup_notify="yes" xdg="true"
-EOF
 desktop-file-install --vendor="" \
   --remove-category="Application" \
   --add-category="X-MandrivaLinux-MoreApplications-Development-DevelopmentEnviroments" \
@@ -69,6 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/*
 %_datadir/applications/%name.desktop
 %{py_puresitedir}/*
-%{_menudir}/%{name}
 
 
