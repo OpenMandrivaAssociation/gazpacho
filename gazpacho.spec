@@ -2,7 +2,7 @@
 Summary: Clone of the glade designer written in python and gtk
 Name: gazpacho
 Version: 0.7.2
-Release: %mkrel 4
+Release: %mkrel 5
 Source: http://ftp.gnome.org/pub/GNOME/sources/gazpacho/%{name}-%{version}.tar.bz2
 License: LGPL
 Group: Development/Python
