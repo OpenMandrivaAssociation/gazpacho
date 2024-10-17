@@ -12,7 +12,7 @@ BuildRequires: python-kiwi
 BuildRequires: desktop-file-utils
 Requires: python
 Requires: python-kiwi
-Url: http://gazpacho.sicem.biz/
+Url: https://gazpacho.sicem.biz/
 Buildarch: noarch
 
 %description
